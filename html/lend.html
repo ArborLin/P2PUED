@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8" />
     <title>闪电贷</title>
-    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/lend.css">
     <script type="text/javascript" src="../javascript/jquery-1.8.2.min.js"></script>    
 </head>
 <body>
-    <div id="header">
+	<div id="header">
         <div id="he-login">
             <div class="wd1002">
                 <p class="he-lo">
@@ -24,7 +24,7 @@
                 <ul>
                     <li class="origin"><a href="#">首页</a></li>
                     <li class="yellow"><a href="#">我要借贷</a></li>
-                    <li class="green"><a href="#">我要投资</a></li>
+                    <li class="green active"><a href="#">我要投资</a></li>
                     <li class="deepGreen"><a href="#">债券转让</a></li>
                     <li class="pink"><a href="#">关于我们</a></li>
                     <li class="violet"><a href="#">个人中心</a></li>
@@ -32,89 +32,90 @@
             </div>
         </div>
     </div>
-    <div id="banner">
-        <ul>
-            <li style="background:url('../images/slide1.jpg') 50% 50% no-repeat">
-                <a href="javascript:void(0);"></a>
-            </li>
-            <li style="background:url('../images/slide2.jpg') 50% 50% no-repeat">
-                <a href="javascript:void(0);"></a>
-            </li>
-            <li style="background:url('../images/slide1.jpg') 50% 50% no-repeat">
-                <a href="javascript:void(0);"></a>
-            </li>
-        </ul>
-    </div>
     <div id="container">
-        <div class="wd1002">
-            <div class="intro clearfix">
-                <a href="#">
-                    <span class="intro-pic intro-pic-1"></span>
-                    <span class="intro-title">新手向导</span>
-                    <span class="intro-text">成为理财人，通过主动投标或加入优选理财计划将资金进行出借投资，可获得预期1214%的稳定年化收益。我们会教会你所有网站的操作流程等一系列的措施。</span>
-                </a>
-                <a href="#">
-                    <span class="intro-pic intro-pic-2"></span>
-                    <span class="intro-title">安全机制</span>
-                    <span class="intro-text">优化系统结构，控制访问路径，将非法访问禁止在外。系统文件比对，防止伪装木马。高强度加密方式防破解，每套程序都有自已唯一的key，保障数据安全</span>
-                </a>
-                <a href="#">
-                    <span class="intro-pic intro-pic-3"></span>
-                    <span class="intro-title">债权转让</span>
-                    <span class="intro-text">我手上有闲钱，想要拿出来理财，我要借出的具体细节。我急需要用钱，想要借款，我要借入的的具体细节。管理我的的账户，近期参与活动，账户安全管理，收益及余额查询等。</span>
-                </a>
-            </div>
-            <div class="announce">闪电贷自成立起共完成交易<span>18,820.26</span> 万元人民币，为理财人赚取的利息收益超过 50,000,000万元人民币，用户表示一致好评。
-            </div>
-            <div class="news clearfix">
-                <div class="title">最新公告</div>
-                <ul>
-                    <li>
-                        <p class="news-time">2013-10-28</p>
-                        <p class="news-liststyle"></p>
-                        <div class="news-list">
-                            <a href="#">北京市金融工作局霍学文书记莅临人人贷考察交流</a>
-                            <div class="subText text-overflow">2013年10月22日上午， 北京市金融工作局霍学文书记及相关领导一行9人莅临人人莅临</div>
-                            <div class="news-tips"></div>
-                        </div>
-                    </li>
-                    <li>
-                        <p class="news-time">2013-10-28</p>
-                        <p class="news-liststyle"></p>
-                        <div class="news-list">
-                            <a href="#">北京市金融工作局霍学文书记莅临人人贷考察交流</a>
-                            <div class="subText text-overflow">2013年10月22日上午， 北京市金融工作局霍学文书记及相关领导一行9人莅临人人莅临</div>
-                            <div class="news-tips"></div>
-                        </div>
-                    </li>
-                    <li>
-                        <p class="news-time">2013-10-28</p>
-                        <p class="news-liststyle"></p>
-                        <div class="news-list">
-                            <a href="#">北京市金融工作局霍学文书记莅临人人贷考察交流</a>
-                            <div class="subText text-overflow">2013年10月22日上午， 北京市金融工作局霍学文书记及相关领导一行9人莅临人人莅临</div>
-                        </div>
-                    </li>
-                    <li>
-                        <p class="news-time">2013-10-28</p>
-                        <p class="news-liststyle"></p>
-                        <div class="news-list">
-                            <a href="#">北京市金融工作局霍学文书记莅临人人贷考察交流</a>
-                            <div class="subText text-overflow">2013年10月22日上午， 北京市金融工作局霍学文书记及相关领导一行9人莅临人人莅临</div>
-                        </div>
-                    </li>
-                    <li>
-                        <p class="news-time">2013-10-28</p>
-                        <p class="news-liststyle"></p>
-                        <div class="news-list">
-                            <a href="#">北京市金融工作局霍学文书记莅临人人贷考察交流</a>
-                            <div class="subText text-overflow">2013年10月22日上午， 北京市金融工作局霍学文书记及相关领导一行9人莅临人人莅临</div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="loan">
-                <div class="title">借款推荐</div>
+    	<div class="wd1002">
+    		<div class="breadcrumb">
+    			<ul>
+    				<li class="breadcrumb-item">
+    					<a href="#">我要投资</a>
+    				</li>
+    				<li class="breadcrumb-separator"> >
+    				</li>
+    				<li class="breadcrumb-item active">
+    					<a href="#">投资中心</a>
+    				</li>
+    			</ul>
+    		</div>
+    		<div class="loan-filter clearfix">
+    			<div class="filter">
+    				<div class="filter-header clearfix">
+    					<h4>筛选投资项目</h4>
+    					<span id="filter-switch">多选</span>
+    				</div>
+    				<ul>
+    					<li>
+    						<ul>
+    							<li class="filter-item">标的类型</li>
+    							<li class="filter-item filter-choice active">
+    								<input type="checkbox" name="loanType" value="all" checked="checked" />
+    								<span>不限</span>
+    							</li>
+    							<li class="filter-item filter-choice">
+    								<input type="checkbox" name="loanType" value="" checked="checked" />
+    								<span>信用认证标</span>
+    							</li>
+    							<li class="filter-item filter-choice">
+    								<input type="checkbox" name="loanType" value="" checked="checked" />
+    								<span>信用认证标</span>
+    							</li>
+    						</ul>
+    					</li>
+    					<li>
+    						<ul>
+    							<li class="filter-item">借款期限</li>
+    							<li class="filter-item filter-choice active">
+    								<input type="checkbox" name="loanTime" value="all" checked="checked" />
+    								<span>不限</span>
+    							</li>
+    							<li class="filter-item filter-choice">
+    								<input type="checkbox" name="loanTime" value="term_3_6" />
+    								<span>3-6个月</span>
+    							</li>
+    							<li class="filter-item filter-choice">
+    								<input type="checkbox" name="loanTime" value="term_9_12" />
+    								<span>9-12个月</span>
+    							</li>
+    						</ul>
+    					</li>
+    					<li>
+    						<ul>
+    							<li class="filter-item">认证等级</li>
+    							<li class="filter-item filter-choice active">
+    								<input type="checkbox" name="rank" value="all" checked="checked" />
+    								<span>不限</span>
+    							</li>
+    							<li class="filter-item filter-choice">
+    								<input type="checkbox" name="rank" value="rank_AA" />
+    								<span>AA</span>
+    							</li>
+    							<li class="filter-item filter-choice">
+    								<input type="checkbox" name="rank" value="rank_A" />
+    								<span>A</span>
+    							</li>
+    						</ul>
+    					</li>
+    				</ul>
+    			</div>
+    			<div class="guide">
+    				<h4>投标注意</h4>
+    				<p>确认投标信息，不要盲目投标</p>
+    				<p>不要听从旁人指导，自己确认</p>
+    				<p>投标有风险，请用户须知</p>
+    				<p>如有问题，可以询问客服</p>
+    			</div>
+    		</div>
+    		<div class="loan">
+                <div class="title">投资推荐</div>
                 <div class="list-head">
                     <span>借款人</span>
                     <span>借款标题</span>
@@ -165,19 +166,13 @@
                     </li>
                 </ul>
                 <div id="viewMore">
-                    <img src="../images/more_ico.png" />
-                    <span>查看更多</span>
+                	<img src="../images/more_ico.png" />
+                	<span>查看更多</span>
                 </div>
             </div>
-            <div class="platform">
-                <div class="title">传播平台</div>
-                <a href="#"><img src="../images/android.png" id="android" /></a>
-                <a href="#"><img src="../images/ios.png" id="ios"/></a>
-                <a href="#"><img src="../images/wx.png" id="wx"/></a>
-            </div>
-        </div>
+    	</div>
     </div>
-    <div id="footer">
+	<div id="footer">
         <div class="wd1002">
             <ul id="fo-nav">
                 <li><img src="../images/wl.png" />新手入门
@@ -234,13 +229,12 @@
                     <a href="#"><img src="../images/con-img_2.png" /></a>
                 </div>
             </div>
-            <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=553982778&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:553982778:53" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
             <div id="copyright">
                 <p>重庆闪电贷金融信息服务有限公司 版权所有 2007-2013<p>
                 <p>Copyright Reserved 2007-2013©闪电贷（www.sddai.com） | 渝ICP备05063398号</p>
             </div>
         </div>
     </div>
-    <script type="text/javascript" src="../javascript/slide_fade.js"></script>
+    <script type="text/javascript" src="../javascript/lend.js"></script>
 </body>
 </html>

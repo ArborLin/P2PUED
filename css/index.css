@@ -58,7 +58,7 @@ img {
   margin-left: 34px; }
 
 #he-nav {
-  height: 82px;
+  height: 84px;
   background: url("../images/nav_bg.png"); }
 
 #he-nav img {
@@ -83,6 +83,9 @@ img {
   transition: border-top-width 0.5s ease 0; }
 
 #he-nav ul li:hover {
+  border-top-width: 4px; }
+
+#he-nav ul li.active {
   border-top-width: 4px; }
 
 #he-nav ul li a {
@@ -421,3 +424,21 @@ img {
   margin: 20px 80px; }
 .platform #wx {
   margin: 20px 30px; }
+
+.list-head,
+.loan ul,
+#viewMore {
+  border-left: 1px solid #dadadb;
+  border-right: 1px solid #dadadb; }
+
+#viewMore {
+  text-align: center;
+  height: 42px;
+  line-height: 42px;
+  border-bottom: 1px solid #dadadb;
+  cursor: pointer; }
+  #viewMore span {
+    position: relative;
+    bottom: 15px;
+    color: #618e91;
+    cursor: pointer; }

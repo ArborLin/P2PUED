@@ -78,6 +78,10 @@ img{
   box-shadow: $h-shadow $v-shadow $blur $spread $color $inset;
 
 }
+@mixin border_lr($wd:1px,$color:#000){
+  border-left:$wd solid $color;
+  border-right: $wd solid $color;
+}
 //sass
 #header{
   @extend %w100;
@@ -128,6 +132,9 @@ img{
   @include transition(border-top-width,.5s,ease,0);
 }
 #he-nav ul li:hover{
+  border-top-width: 4px;
+}
+#he-nav ul li.active{
   border-top-width: 4px;
 }
 #he-nav ul li a{

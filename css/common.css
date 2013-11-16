@@ -84,6 +84,9 @@ img {
 #he-nav ul li:hover {
   border-top-width: 4px; }
 
+#he-nav ul li.active {
+  border-top-width: 4px; }
+
 #he-nav ul li a {
   color: #000000; }
 

@@ -84,6 +84,9 @@ img {
 #he-nav ul li:hover {
   border-top-width: 4px; }
 
+#he-nav ul li.active {
+  border-top-width: 4px; }
+
 #he-nav ul li a {
   color: #000000; }
 
@@ -225,15 +228,16 @@ html, body {
   padding: 80px 0 100px 0; }
 
 .form-input.error {
-  border-color: red; }
+  border-color: #2d9194; }
 
 .form-item label.error {
-  color: red;
+  color: #2d9194;
   font-size: 12px; }
 
 #signup .form-item label.error {
+  margin-left: 80px;
   width: auto;
-  color: red;
+  color: #2d9194;
   font-size: 12px; }
 
 .guide {

@@ -259,3 +259,21 @@
     margin: 20px 30px;
   }
 }
+.list-head,
+.loan ul,
+#viewMore{
+  @include border_lr(1px,#dadadb);
+}
+#viewMore{
+  text-align: center;
+  height: 42px;
+  line-height: 42px;
+  border-bottom: 1px solid #dadadb;
+  cursor: pointer;
+  span{
+    position: relative;
+    bottom: 15px;
+    color: #618e91;
+    cursor: pointer;
+  }
+}
